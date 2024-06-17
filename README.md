@@ -1,6 +1,6 @@
 # liquid-staked-gov
 
-Tally and Scopelift are building a protocol for governance tokens in DeFi. It's called Liquid Governance Tokens (tLSTs). The goal of tLSTs is to let tokenholders use their tokens in both DeFi AND governance at the same time.
+Tally and Scopelift are building a protocol for governance tokens in DeFi. It's called Tally Liquid Staked Tokens (tLSTs). The goal of tLSTs is to let tokenholders use their tokens in both DeFi AND governance at the same time.
 
 ## Motivation
 
@@ -11,7 +11,7 @@ tLSTs fix the problem. tLSTs make it so that holders don’t have to choose betw
 ## Solution
 
 tLSTs operate under the same constraints as regular governance tokens. If held directly, tLSTs can use their voting power like normal governance tokens. If not held directly, the holders cannot activate tLST voting power themselves.
-Unlike governance tokens, Tally's tLST protocol activates the voting power of unactivated tLSTs. When an tLST isn't activated by the holder, the tLST's governance strategy activates it. To prevent capture, the underlying DAO determins the tLST's governance strategy.
+Unlike governance tokens, Tally's tLST protocol activates the voting power of unactivated tLSTs. When an tLST isn't activated by the holder, the tLST's governance strategy activates it. To prevent capture, the underlying DAO determines the tLST's governance strategy.
 tLSTs will be backwards compatible with existing `ERC20Votes` governance tokens.
 
 ### Staker support
@@ -26,4 +26,4 @@ tLSTs will be ERC20 tokens. They will also implement [ERC20Votes](https://github
 
 ### User interface
 
-Tally will provide an interface for tLSTs
+Tally will provide an interface for tLSTs.
